@@ -31,3 +31,88 @@
     transform: rotate(360deg);
   }
 }
+
+#button-div{
+  border-bottom: 2px solid black;
+  margin-bottom: 15px;
+}
+
+#button-div button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#bottom-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper{
+  justify-self: center;
+}
+
+#legend{
+  padding-left: 25px;
+  align-self: flex-start;
+}
+
+.yellow{
+  background-color: rgb(255, 255, 155);
+  border: 1px solid black;
+}
+
+.gray{
+  background-color: rgb(121, 121, 121);
+  border: 1px solid black;
+}
+
+.purple{
+  background-color: rgb(255, 0, 255);
+  border: 1px solid black;
+}
+
+.blue{
+  background-color: rgb(100, 100, 255);
+  border: 1px solid black;
+}
+
+.green{
+  background-color: rgb(170, 255, 170);
+  border: 1px solid black;
+}
+
+.red{
+  background-color: rgb(255, 170, 170);
+  border: 1px solid black;
+}
+
+#legend-details div{
+  margin-top: 20px;
+  align-self: flex-start
+}
+
+#legend-details{
+  display: flex;
+  flex-direction: column;
+}
+
+#all-canvases{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#left-canvas{
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
