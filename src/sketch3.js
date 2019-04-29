@@ -338,18 +338,18 @@ let temp;
       grid.forEach((arr1) => {
         arr1.forEach((arr2) => {
           arr2.forEach((el) => {
-
+            if (!maze.includes(el)) {
             if (!isBlockInside(current, el, cubeDepth) && continueSearching) {
               s.fill(0, 0, 0, 15)
               el.show()
             } else {
-              s.stroke(0);
               s.fill(0, 0, 0, 150);
               el.show();
               s.noStroke()
               // s.fill(0, 0, 245);
               // el.show();
             }
+          }
             
           })
         })
@@ -359,10 +359,10 @@ let temp;
       
       maze.forEach((cell) => {
         if (!isBlockInside(current, cell, cubeDepth) && continueSearching) {
-          s.fill(255, 255, 0, 15)
+          s.fill(255, 255, 0, 5)
           cell.show()
         } else {
-          s.fill(255, 255, 0, 80);
+          s.fill(255, 255, 0, 15);
           cell.show();
           // s.stroke(0);
           // s.fill(255, 255, 0, 245);
