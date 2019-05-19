@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/3D-Maze-and-Search/static/css/main.dd16bd23.chunk.css",
+    "main.js": "/3D-Maze-and-Search/static/js/main.a1e84740.chunk.js",
+    "main.js.map": "/3D-Maze-and-Search/static/js/main.a1e84740.chunk.js.map",
+    "runtime~main.js": "/3D-Maze-and-Search/static/js/runtime~main.d6df076e.js",
+    "runtime~main.js.map": "/3D-Maze-and-Search/static/js/runtime~main.d6df076e.js.map",
+    "static/js/2.2e3f406a.chunk.js": "/3D-Maze-and-Search/static/js/2.2e3f406a.chunk.js",
+    "static/js/2.2e3f406a.chunk.js.map": "/3D-Maze-and-Search/static/js/2.2e3f406a.chunk.js.map",
+    "index.html": "/3D-Maze-and-Search/index.html",
+    "precache-manifest.ee23349fefaeaeb5e82c1140136c393e.js": "/3D-Maze-and-Search/precache-manifest.ee23349fefaeaeb5e82c1140136c393e.js",
+    "service-worker.js": "/3D-Maze-and-Search/service-worker.js",
+    "static/css/main.dd16bd23.chunk.css.map": "/3D-Maze-and-Search/static/css/main.dd16bd23.chunk.css.map",
+    "static/media/logo.svg": "/3D-Maze-and-Search/static/media/logo.5d5d9eef.svg"
+  }
+}
