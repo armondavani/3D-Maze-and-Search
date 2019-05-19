@@ -1,4 +1,4 @@
-***3D Maze Visualizer***
+*3D Maze Visualizer*
 
 https://armondavani.github.io/3D-Maze-and-Search/
 
